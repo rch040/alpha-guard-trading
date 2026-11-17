@@ -1,0 +1,14 @@
+# Secrets & Keys (NEVER upload)
+.env
+keys/*.pem
+keys/*.properties
+!keys/.gitkeep
+
+# Local Database & Cache
+data/
+*.db
+*.sqlite3
+__pycache__/
+*.py[cod]
+.venv/
+venv/
